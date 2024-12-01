@@ -16,7 +16,7 @@ Before running the pipeline, ensure the following:
 
 To authenticate with Google Cloud, you need to set up the following secrets in your GitHub repository:
 
-- **`GCP_SA_KEY`**: The Service Account Key JSON for authentication. This service account should have sufficient permissions (e.g., `roles/run.admin`, `roles/iam.serviceAccountUser`).
+- **`GCP_SERVICE_ACCOUNT_KEY`**: The Service Account Key JSON for authentication. This service account should have sufficient permissions (e.g., `roles/run.admin`, `roles/iam.serviceAccountUser`).
   
 
 ### 2. Provide the GCP Project ID
